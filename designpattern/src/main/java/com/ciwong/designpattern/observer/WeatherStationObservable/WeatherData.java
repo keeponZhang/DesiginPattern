@@ -1,7 +1,8 @@
 package com.ciwong.designpattern.observer.WeatherStationObservable;
-	
+
+
 import java.util.Observable;
-	
+
 public class WeatherData extends Observable {
 	private float temperature;
 	private float humidity;

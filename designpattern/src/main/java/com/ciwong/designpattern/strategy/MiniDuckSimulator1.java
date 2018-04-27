@@ -1,4 +1,4 @@
-package headfirst.strategy;
+package com.ciwong.designpattern.strategy;
 
 public class MiniDuckSimulator1 {
  
