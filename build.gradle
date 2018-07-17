@@ -22,9 +22,10 @@ buildscript {
 
     repositories {
         jcenter()
+        google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.0'
+        classpath 'com.android.tools.build:gradle:3.0.1'
 
         File file = project.rootProject.file('local.properties')
         if (file.exists()) {
@@ -50,6 +51,7 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        google()
     }
 
 }
